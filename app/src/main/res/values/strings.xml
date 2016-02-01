@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BullBoime</string>
+    <string name="setting_name">BullBoimeの設定</string>
     <string name="label_subtype_generic">日本語</string>
 </resources>

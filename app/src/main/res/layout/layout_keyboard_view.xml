@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.keroxp.bullboime.view.KeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffff0000"
+    android:orientation="vertical"
+    android:layout_gravity="start|end"
+    android:layout_width="match_parent"
+    android:layout_height="240dp">
+    <me.keroxp.bullboime.view.CanvasView
+        android:id="@+id/canvasView"
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/toolBarLayout"
+        android:background="#ff00ff00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"/>
+    </LinearLayout>
+</me.keroxp.bullboime.view.KeyboardView>
